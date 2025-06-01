@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="manifest" href="manifest.json" />
+  <title>Skin Wellness Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Skin Wellness Tracker</h1>
+  <form id="checkin-form">
+    <label>Hydration: <input type="range" min="1" max="5" name="hydration" /></label><br/>
+    <label>Oiliness: <input type="range" min="1" max="5" name="oiliness" /></label><br/>
+    <label>Acne: <input type="range" min="1" max="5" name="acne" /></label><br/>
+    <label>Upload Selfie: <input type="file" accept="image/*" name="selfie" /></label><br/>
+    <button type="submit">Submit</button>
+  </form>
+  <div id="ai-feedback"></div>
+  <script src="app.js"></script>
+</body>
+</html>
