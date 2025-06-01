@@ -2,9 +2,9 @@ import React from 'react';
 
 function App() {
   return (
-    <div>
-      <h1>Welcome to the Skin Wellness Tracker</h1>
-      <p>Track your skincare habits and progress.</p>
+    <div style={{ padding: '2rem', fontFamily: 'Arial' }}>
+      <h1>Welcome to Skin Wellness Tracker</h1>
+      <p>This is your AI-powered skincare habit tracker.</p>
     </div>
   );
 }
